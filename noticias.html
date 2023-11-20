@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+
+    <!--materialize-->
+    <link rel="stylesheet" href="css/materialize.css">   
+    <!--icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="css/noticias.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <img src="imagens/UniKids 02.png" alt="" class="logo">       
+        <nav class="navegador">
+            <div class="nav-wrapper">
+               <!--menu desktop-->
+                <ul id="menu" class="right hide-on-med-and-down">
+                    <li><a href="#logo">Início</a></li>
+                    <li><a href="calendario.html">Calendário</a></li>
+                    <li><a href="index.html#logo">Voltar</a></li>
+                </ul>
+                
+                <!--menu mobile-->
+                <a href="#" data-target="slide-out" id="menu-mobile" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="slide-out" class="sidenav">
+                    <img src="imagens/bem-vindo.jpg" alt="" class="responsive-img" width="50%">
+                    <li><a href="#logo"><i class="material-icons left">home</i>Início</a></li>
+                    <li><a href="calendario.html"><i class="material-icons left">event</i>Calendário</a></li>
+                    <li><a href="index.html#logo"><i class="material-icons left">arrow_back</i>Voltar</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!--Main-->
+    <main>
+        <h1>Notícias</h1>
+        <div class="container">
+            <div class="card">
+                <img src="./imagens/Colegas brincalhão se divertindo no campo de jogos _ Foto Grátis.jpg" alt="Imagem da notícia">
+                <h2>Dia das Crianças com muita diversão e aprendizado </h2>
+                <p>A escola organizou uma série de atividades para comemorar o Dia das Crianças, incluindo brincadeiras, jogos educativos e uma oficina de culinária. As crianças se divertiram muito e aprenderam coisas novas ao mesmo tempo.</p>
+                
+            </div>
+            <div class="card">
+                <img src="./imagens/Stadtbus irá recolher brinquedos para doação no Natal _ Jornal Acontece Botucatu.jpg" alt="Imagem da notícia">
+                <h2>Campanha de doação de brinquedos para crianças carentes </h2>
+                <p>A escola está arrecadando brinquedos novos e usados para doar a crianças carentes da região. A campanha tem como objetivo levar alegria e esperança para as crianças que mais precisam.</p>
+                
+            </div>
+            <div class="card">
+                <img src="./imagens/Escola _ Cooeps _ Bahia.jpg" alt="Imagem da notícia">
+                <h2>Feira de ciências para estimular a curiosidade dos alunos</h2>
+                <p>A escola promoveu uma feira de ciências para os alunos mostrarem seus projetos e experimentos. A feira foi um sucesso e estimulou a curiosidade e a criatividade dos alunos.</p>
+                
+            </div>
+        </div>
+    </main>
+    
+
+   
+
+
+    <!--Footer-->
+    <footer class="z-depth-2">
+        <div>
+            <button class="mostrar btn waves-effect waves-light" type="submit" name="action" onclick="sumir()">
+                <i class="material-icons right">add_circle</i>Grupo:
+            </button><button class="sumir btn waves-effect waves-light" type="submit" name="action" onclick="sumir()">
+                <i class="material-icons right">remove_circle</i>Grupo:
+            </button>
+            <p class="membros">Matheus Wendell Dantas Bezerra (16024824) / Luiz Felipe Dantas Bezerra (16024825)</p>
+        </div>
+        
+    </footer>
+
+     <!--Jquery-->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <!--javascript-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>

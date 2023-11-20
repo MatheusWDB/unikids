@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&family=Luckiest+Guy&family=Patrick+Hand&display=swap');
+
+
+body {
+    background-color: #ff99001e;
+    font-family: 'Patrick Hand';
+}
+h1, h2{
+    color: #025ED2;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    width: 25%;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: #333;
+    border-radius: 5px;
+}
+.card img {
+    max-width: 100%;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 0.7cm;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #D10163;
+}
+.card a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.card a:hover {
+    background-color: #555;
+}
+
+footer {
+    inline-size: 100%;
+    text-align: center;
+    margin: auto; 
+    background-color: #025ED2; 
+}
+
+footer .membros {
+    margin: 0 auto;
+    display: inline;
+    color: white;
+    font-size: 0.6cm;
+}
+
+.navegador {
+    background-color: #0260d241;    
+}
+.navegador a {
+    color: #025ED2;
+    font-size: 0.7cm;
+}
+.sidenav li a {
+    color: #D10163;
+    font-size: 0.7cm;
+}
+.navegador .sidenav img {
+    margin: auto;
+    display: block;
+}
+.logo {
+    margin: 0 auto 4.3595px auto ;
+    inline-size: 64.649%;
+    min-inline-size: 200px;
+    max-inline-size: 320px;
+    display: block;
+}
+a.inicio.pushpin {
+    inset-inline-end: 0px;
+}
+
+td.data{
+    color: #025ED2; 
+    font-size: 20px;
+    text-align: center;
+}
+td.evento{
+    color: #D10163;
+    font-size: 20px;
+    text-align: center;
+}
+table{
+    background-color: #0260d227;
+}
